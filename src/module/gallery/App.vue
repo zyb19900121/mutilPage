@@ -1,20 +1,22 @@
 <template>
   <div id="app">
     <Header></Header>
-    <HeaderNav indexName="index"></HeaderNav>
-    <Sign></Sign>
-    <Journal></Journal>
-    <Material></Material>
-    <Style></Style>
-    <Designer></Designer>
+    <HeaderNav indexName='gallery'></HeaderNav>
+    <Content></Content>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'app'
+    name: 'app',
+    data(){
+      return {
+
+      }
+    }
   }
+
 </script>
 
 <style>

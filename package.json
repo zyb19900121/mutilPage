@@ -1,7 +1,7 @@
 {
-  "name": "mutilpage",
+  "name": "Homestation",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Homestation Website",
   "author": "zyb19900121 <zyb19900121@163.com>",
   "private": true,
   "scripts": {
@@ -10,8 +10,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "animate.css": "^3.5.2",
+    "element-ui": "^1.4.4",
     "vue": "^2.4.2",
-    "vue-router": "^2.7.0"
+    "vue-router": "^2.7.0",
+    "vuex": "^2.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
