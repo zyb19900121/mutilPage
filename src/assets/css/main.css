@@ -16,6 +16,10 @@ img {
   vertical-align: middle;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 /*@media only screen and (min-width: 320px) {*/
 /*html {*/
 /*font-size: 50px;*/
@@ -98,8 +102,28 @@ a:active {
   text-decoration: none;
 }
 
+.display-flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.magin0Auto {
+  margin: 0 auto;
+}
+
 .text-align-center {
   text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
 }
 
 .display-inline-block {
@@ -112,6 +136,10 @@ a:active {
   background-color: #fafafa;
 }
 
+.bg-color-dark-grey {
+  background-color: #aaaaaa;
+}
+
 .bg-color-grey {
   background-color: #f4f4f4;
 }
@@ -120,7 +148,19 @@ a:active {
   background-color: white;
 }
 
+.bg-color-green {
+  background-color: #41d61a;
+}
+
+.bg-color-orange {
+  background-color: #ff9100;
+}
+
 /*font-color*/
+
+.font-color-black {
+  color: #323232;
+}
 
 .font-color-ligth-grey {
   color: #bebebe;
@@ -314,6 +354,10 @@ a:active {
   padding-bottom: .30rem;
 }
 
+.pb-50 {
+  padding-bottom: .50rem;
+}
+
 /*padding-left*/
 
 .pl-5 {
@@ -408,15 +452,24 @@ a:active {
 
 /*padding-left & padding-right*/
 
+.plr-10 {
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+
 .plr-150 {
   padding-left: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 /*margin-top*/
 
 .mt-015 {
   margin-top: -0.15rem;
+}
+
+.mt-040 {
+  margin-top: -0.40rem;
 }
 
 .mt-5 {
@@ -597,6 +650,10 @@ a:active {
   width: .4rem;
 }
 
+.width-45 {
+  width: .45rem;
+}
+
 .width-50 {
   width: .5rem;
 }
@@ -641,12 +698,36 @@ a:active {
   width: 4rem;
 }
 
+.width-1100 {
+  width: 11rem;
+}
+
+.height-50p {
+  height: 50%;
+}
+
 .height-30 {
   height: .30rem;
 }
 
+.height-40 {
+  height: .40rem;
+}
+
+.height-45 {
+  height: .45rem;
+}
+
+.height-50 {
+  height: .50rem;
+}
+
 .height-60 {
   height: .60rem;
+}
+
+.height-80 {
+  height: .80rem;
 }
 
 .height-150 {
@@ -677,8 +758,24 @@ a:active {
   height: 3.4rem;
 }
 
+.height-350 {
+  height: 3.5rem;
+}
+
+.height-400 {
+  height: 4.0rem;
+}
+
 .line-height-30 {
   line-height: .30rem;
+}
+
+.line-height-45 {
+  line-height: .45rem;
+}
+
+.line-height-180 {
+  line-height: 1.80rem;
 }
 
 .line-height-260 {
@@ -687,6 +784,14 @@ a:active {
 
 .line-height-300 {
   line-height: 3rem;
+}
+
+.border-radius-50p {
+  border-radius: 50%;
+}
+
+.border-radius-4 {
+  border-radius: 4px;
 }
 
 .border-grey {
@@ -719,4 +824,8 @@ a:active {
 
 .float-right {
   float: right;
+}
+
+.clear-both {
+  clear: both;
 }

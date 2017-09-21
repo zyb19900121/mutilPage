@@ -107,67 +107,63 @@
       <p class="font-36 font-color-white line-height-300">驿站智能报价能为您做什么?</p>
     </div>
 
-    <div class="text-align-center ptb-30 bg-color-light-grey">
-      <el-row :gutter="20">
-        <el-col :span="2">
-          <div class="height-280"></div>
-        </el-col>
-        <el-col :span="4">
+    <div class="bg-color-light-grey">
+      <div class="width-1100 text-align-center ptb-30 magin0Auto">
+        <el-row :gutter="230">
 
-          <div :class="{'animated pulse':isShowFor1===true}"
-               class="div-1 text-align-center height-280 width-180 font-color-grey-a"
-               @mouseenter="enter('1',$event)" @mouseleave="leave('1',$event)">
-            <p class="font-18 pt-160">精准全包报价</p>
-            <p class="font-14 mt-10">提供工程量、主材用量</p>
-            <p class="font-14">轻工辅料价格</p>
-            <p class="font-14">主材价格明细</p>
-          </div>
+          <el-col :span="4">
+            <div :class="{'animated pulse':isShowFor1===true}"
+                 class="div-1 text-align-center height-280 width-180 font-color-grey-a magin0Auto"
+                 @mouseenter="enter('1',$event)" @mouseleave="leave('1',$event)">
+              <p class="font-18 pt-160">精准全包报价</p>
+              <p class="font-14 mt-10">提供工程量、主材用量</p>
+              <p class="font-14">轻工辅料价格</p>
+              <p class="font-14">主材价格明细</p>
+            </div>
 
-        </el-col>
-        <el-col :span="4">
-          <div :class="{'animated pulse':isShowFor2===true}"
-               class="div-2 text-align-center height-280 width-180 font-color-grey-a"
-               @mouseenter="enter('2',$event)" @mouseleave="leave('2',$event)">
-            <p class="font-18 pt-160">多档选择</p>
-            <p class="font-14 mt-10">多档次报价</p>
-            <p class="font-14">为您提供全面的</p>
-            <p class="font-14">预算参考</p>
-          </div>
-        </el-col>
-        <el-col :span="4">
-          <div :class="{'animated pulse':isShowFor3===true}"
-               class="div-3 text-align-center height-280 width-180 font-color-grey-a"
-               @mouseenter="enter('3',$event)" @mouseleave="leave('3',$event)">
-            <p class="font-18 pt-160">详细清单</p>
-            <p class="font-14 mt-10">详细报价清单</p>
-            <p class="font-14">您想要的一应俱全</p>
-          </div>
-        </el-col>
-        <el-col :span="4">
-          <div :class="{'animated pulse':isShowFor4===true}"
-               class="div-4 text-align-center height-280 width-180 font-color-grey-a"
-               @mouseenter="enter('4',$event)" @mouseleave="leave('4',$event)">
-            <p class="font-18 pt-160">分享结果</p>
-            <p class="font-14 mt-10">报价结果不准</p>
-            <p class="font-14">您可分享给好友</p>
-            <p class="font-14">家人帮忙参考</p>
-          </div>
-        </el-col>
-        <el-col :span="4">
-          <div :class="{'animated pulse':isShowFor5===true}"
-               class="div-5 text-align-center height-280 width-180 font-color-grey-a"
-               @mouseenter="enter('5',$event)" @mouseleave="leave('5',$event)">
-            <p class="font-18 pt-160">专业咨询</p>
-            <p class="font-14 mt-10">专属家装顾问</p>
-            <p class="font-14">为您讲解驿站装修服务</p>
-            <p class="font-14">找验房、找设计、找装修</p>
-            <p class="font-14">一站全齐</p>
-          </div>
-        </el-col>
-        <el-col :span="2">
-          <div class="height-280"></div>
-        </el-col>
-      </el-row>
+          </el-col>
+          <el-col :span="4">
+            <div :class="{'animated pulse':isShowFor2===true}"
+                 class="div-2 text-align-center height-280 width-180 font-color-grey-a magin0Auto"
+                 @mouseenter="enter('2',$event)" @mouseleave="leave('2',$event)">
+              <p class="font-18 pt-160">多档选择</p>
+              <p class="font-14 mt-10">多档次报价</p>
+              <p class="font-14">为您提供全面的</p>
+              <p class="font-14">预算参考</p>
+            </div>
+          </el-col>
+          <el-col :span="4">
+            <div :class="{'animated pulse':isShowFor3===true}"
+                 class="div-3 text-align-center height-280 width-180 font-color-grey-a magin0Auto"
+                 @mouseenter="enter('3',$event)" @mouseleave="leave('3',$event)">
+              <p class="font-18 pt-160">详细清单</p>
+              <p class="font-14 mt-10">详细报价清单</p>
+              <p class="font-14">您想要的一应俱全</p>
+            </div>
+          </el-col>
+          <el-col :span="4">
+            <div :class="{'animated pulse':isShowFor4===true}"
+                 class="div-4 text-align-center height-280 width-180 font-color-grey-a magin0Auto"
+                 @mouseenter="enter('4',$event)" @mouseleave="leave('4',$event)">
+              <p class="font-18 pt-160">分享结果</p>
+              <p class="font-14 mt-10">报价结果不准</p>
+              <p class="font-14">您可分享给好友</p>
+              <p class="font-14">家人帮忙参考</p>
+            </div>
+          </el-col>
+          <el-col :span="4">
+            <div :class="{'animated pulse':isShowFor5===true}"
+                 class="div-5 text-align-center height-280 width-180 font-color-grey-a magin0Auto"
+                 @mouseenter="enter('5',$event)" @mouseleave="leave('5',$event)">
+              <p class="font-18 pt-160">专业咨询</p>
+              <p class="font-14 mt-10">专属家装顾问</p>
+              <p class="font-14">为您讲解驿站装修服务</p>
+              <p class="font-14">找验房、找设计、找装修</p>
+              <p class="font-14">一站全齐</p>
+            </div>
+          </el-col>
+        </el-row>
+      </div>
     </div>
   </div>
 </template>

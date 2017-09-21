@@ -102,7 +102,7 @@
 
   .style-div-f {
     background-image: url("../../assets/imgs/index/风格-地中海.jpg");
-    background-repeat: no-repeat round;
+    background-repeat: n;
     border: 1px solid white;
     transition: all 0.3s ease;
   }

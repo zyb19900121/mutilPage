@@ -8,8 +8,12 @@ import Journal from '../../components/index/Journal.vue'
 import Material from '../../components/index/Material.vue'
 import Style from '../../components/index/Style.vue'
 import Designer from '../../components/index/Designer.vue'
+import Information from '../../components/index/Information.vue'
+import News from '../../components/index/News.vue'
+import FriendLink from '../../components/index/FriendLink.vue'
 import Footer from '../../components/main/Footer.vue'
 import '../../assets/css/main.css'
+import animate from 'animate.css'
 
 
 import ElementUI from 'element-ui'
@@ -25,6 +29,9 @@ Vue.component('Journal', Journal);
 Vue.component('Material', Material);
 Vue.component('Style', Style);
 Vue.component('Designer', Designer);
+Vue.component('Information', Information);
+Vue.component('News', News);
+Vue.component('FriendLink', FriendLink);
 Vue.component('Footer', Footer);
 const routes = [];
 const router = new VueRouter({

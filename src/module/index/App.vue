@@ -7,6 +7,9 @@
     <Material></Material>
     <Style></Style>
     <Designer></Designer>
+    <Information></Information>
+    <News></News>
+    <FriendLink></FriendLink>
     <Footer></Footer>
   </div>
 </template>
@@ -21,6 +24,7 @@
 
   #app {
     min-width: 1200px;
+    color: #323232;
   }
 
   /*#app {*/
