@@ -1,6 +1,6 @@
 <template>
   <div class="font-16">
-    <div class="text-align-center pt-50">
+    <div class="text-align-center">
       <p class="font-26">驿站家装流行风格</p>
       <div class="display-inline-block pt-30 pb-30">
         <div>

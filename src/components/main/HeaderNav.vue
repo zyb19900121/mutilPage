@@ -12,7 +12,9 @@
       </a>
       <el-submenu index="2">
         <template slot="title">驿站产品</template>
-        <el-menu-item index="2-1">梦想装3.0</el-menu-item>
+        <a href="dream3.0.html">
+          <el-menu-item index="2-1">梦想装3.0</el-menu-item>
+        </a>
         <el-menu-item index="2-2">定制施工包</el-menu-item>
         <el-menu-item index="2-3">个性主材包</el-menu-item>
         <el-menu-item index="2-4">家具软装包</el-menu-item>
@@ -70,6 +72,9 @@
           break;
         case 'gallery':
           this.activeIndex = '7';
+          break;
+        case 'dream3.0':
+          this.activeIndex = '2-1';
           break;
       }
     },

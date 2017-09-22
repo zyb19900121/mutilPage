@@ -14,7 +14,10 @@
       <p><input type="text" placeholder="您的姓名"></p>
       <p><input type="text" placeholder="联系方式"></p>
 
-      <button>立即报名</button>
+      <button :class="{'animated tada':isShow===true}"
+              @mouseenter="enter($event)" @mouseleave="leave($event)">
+        立即报名
+      </button>
 
     </div>
 
@@ -23,7 +26,24 @@
 </template>
 
 <script>
-  export default {}
+  import animate from 'animate.css'
+
+  export default {
+    data() {
+      return {
+        isShow: false
+      }
+    },
+    methods: {
+      enter: function (event) {
+        console.log('enter');
+        this.isShow = true;
+      },
+      leave: function (event) {
+        this.isShow = false;
+      },
+    }
+  }
 </script>
 
 <style scoped>
@@ -48,7 +68,7 @@
   }
 
   button:hover {
-    background-color: crimson;
+    //background-color: crimson;
   }
 
   .sign-bg {
