@@ -3,6 +3,7 @@
     <Header></Header>
     <HeaderNav indexName='calc'></HeaderNav>
     <Content></Content>
+    <FriendLink></FriendLink>
     <Footer></Footer>
   </div>
 </template>

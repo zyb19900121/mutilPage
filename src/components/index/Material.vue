@@ -392,21 +392,23 @@
     },
 
     mounted() {
-//
-      var card = document.querySelector('.el-carousel__item-card.is-in-stage');
 
-      console.log(card);
-
-
+      var bodyId = document.body.id;
       var tabNav = document.getElementsByClassName('el-tabs__nav');
       var tabHeader = document.getElementsByClassName('el-tabs__header');
-//      document.querySelector('.el-tabs__nav').style.backgroundColor = 'black';
 
-      for (var i = 2; i < 9; i++) {
-        tabNav[i].style.float = 'none';
+      if (bodyId == 'dream3.0') {
+        tabHeader[0].style.display = 'inline-block';
+        for (var i = 1; i < 8; i++) {
+          tabNav[i].style.float = 'none';
+        }
+      } else {
+
+        for (var i = 2; i < 9; i++) {
+          tabNav[i].style.float = 'none';
+        }
+        tabHeader[1].style.display = 'inline-block';
       }
-
-      tabHeader[1].style.display = 'inline-block';
     },
 
     methods: {

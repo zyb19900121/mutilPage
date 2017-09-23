@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import Header from '../../components/main/Header.vue'
 import HeaderNav from '../../components/main/HeaderNav.vue'
 import Content from '../../components/calc/Content.vue'
+import FriendLink from '../../components/main/FriendLink.vue'
 import Footer from '../../components/main/Footer.vue'
 import '../../assets/css/main.css'
 import animate from 'animate.css'
@@ -17,10 +18,11 @@ Vue.use(ElementUI);
 Vue.component('Header', Header);
 Vue.component('HeaderNav', HeaderNav);
 Vue.component('Content', Content);
+Vue.component('FriendLink', FriendLink);
 Vue.component('Footer', Footer);
 const routes = [];
 const router = new VueRouter({
-  mode:'history',
+  mode: 'history',
   routes
 });
 

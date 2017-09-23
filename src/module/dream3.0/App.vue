@@ -3,7 +3,9 @@
     <Header></Header>
     <HeaderNav indexName='dream3.0'></HeaderNav>
     <Sign></Sign>
-    <Content></Content>
+    <Material></Material>
+    <Space></Space>
+    <Style></Style>
     <Sever></Sever>
     <FriendLink></FriendLink>
     <Footer></Footer>

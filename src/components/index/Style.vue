@@ -7,12 +7,12 @@
           <el-row :gutter="10">
             <el-col :span="8">
               <div class="style-div-a text-align-center width-400 height-260">
-                <p class="font-26" style="line-height: 260px"><span>现代简约</span></p>
+                <p class="font-26 line-height-260"><span>现代简约</span></p>
               </div>
             </el-col>
             <el-col :span="8">
               <div class="style-div-b text-align-center width-400 height-260">
-                <p class="font-26" style="line-height: 260px"><span>北欧风情</span></p>
+                <p class="font-26 line-height-260"><span>北欧风情</span></p>
               </div>
             </el-col>
             <el-col :span="8">

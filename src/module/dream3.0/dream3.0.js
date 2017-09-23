@@ -4,7 +4,9 @@ import VueRouter from 'vue-router'
 import Header from '../../components/main/Header.vue'
 import HeaderNav from '../../components/main/HeaderNav.vue'
 import Sign from '../../components/main/Sign.vue'
-import Content from '../../components/dream3.0/Content.vue'
+import Material from '../../components/index/Material.vue'
+import Space from '../../components/dream3.0/Space.vue'
+import Style from '../../components/index/Style.vue'
 import Sever from '../../components/dream3.0/Sever.vue'
 import FriendLink from '../../components/main/FriendLink.vue'
 import Footer from '../../components/main/Footer.vue'
@@ -20,13 +22,15 @@ Vue.use(ElementUI);
 Vue.component('Header', Header);
 Vue.component('HeaderNav', HeaderNav);
 Vue.component('Sign', Sign);
-Vue.component('Content', Content);
+Vue.component('Material', Material);
+Vue.component('Space', Space);
+Vue.component('Style', Style);
 Vue.component('Sever', Sever);
 Vue.component('FriendLink', FriendLink);
 Vue.component('Footer', Footer);
 const routes = [];
 const router = new VueRouter({
-  mode:'history',
+  mode: 'history',
   routes
 });
 
